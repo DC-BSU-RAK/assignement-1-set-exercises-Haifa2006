@@ -1,0 +1,28 @@
+/* div#A: Purple border, red outer shadow */
+#A {
+    border-color: purple;
+    box-shadow: 15px 15px 20px red;
+  }
+  
+  /* div#B: Lime border, black inner shadow */
+  #B {
+    border-color: lime;
+    box-shadow: inset 15px 15px 30px black;
+  }
+  
+  /* div#C: Orange border with rounded corners and layered shadows */
+  #C {
+    border-color: orange;
+    border-radius: 30px;
+    box-shadow:
+      0 0 0 10px blue,
+      0 0 0 20px red,
+      0 0 0 30px green;
+  }
+  
+  /* div#D: Brown border and black text shadow for a blurry look */
+  #D {
+    border-color: brown;
+    text-shadow: 3px 3px 3px black;
+  }
+  

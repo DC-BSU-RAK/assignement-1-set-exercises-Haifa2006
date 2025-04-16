@@ -1,0 +1,145 @@
+/* Base styling for the entire page */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+  }
+  
+  /*  Main container layout using Flexbox */
+  .container {
+    display: flex;
+    padding: 50px;
+    gap: 40px;
+    height: 100vh;
+    box-sizing: border-box;
+  }  
+
+  /* Left panel: Text input and label section */
+  .left-panel {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  /* Label at the top of the left panel */
+  .label {
+    background-color: rgba(46, 113, 1, 0.8);
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+  }
+  
+  /* Textarea for inputting speech text */
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    font-size: 18px;
+    resize: none;
+    border-radius: 12px;
+    border: none;
+  }
+  
+  /* Button to trigger speech synthesis */
+  #say-it {
+    padding: 14px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }  
+  
+  
+/* Right panel: Contains soundboard and pagination */
+  .right-panel {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Title for the sample grid */
+  .sample-bank-title {
+    background-color: white;
+    color: rgba(46, 113, 1, 0.8);;
+    font-weight: bold;
+    padding: 10px 190px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  
+/* Grid layout for the sample buttons */
+  .sample-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    gap: 30px;
+  }  
+  
+  /* Individual sample button styling */
+  .sample-button {
+    background-color: white;
+    color: black;
+    border: 6px solid black; /* thicker black stroke */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    width: 160px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    transition: transform 0.2s;
+    box-sizing: border-box;
+    margin: 10px;
+  }   
+
+  /* Hover effect for sample buttons */
+  .sample-button:hover {
+    background-color: rgba(46, 113, 1, 0.8);;
+    color: white;
+  }
+  
+  /* Duration text inside each sample button */
+  .sample-duration {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 8px;
+  }  
+  
+  /* Pagination controls (navigation buttons) */
+  .nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  
+/* Styling for left/right page arrows*/
+  .nav-arrow {
+    font-size: 30px;
+    padding: 15px 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }  
+  
+  /* Hide disabled arrows */
+  .nav-arrow:disabled {
+    display: none;
+  }
+  
+  
+  
+  
+  
+  

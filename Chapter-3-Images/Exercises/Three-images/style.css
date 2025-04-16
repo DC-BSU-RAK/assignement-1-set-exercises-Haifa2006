@@ -1,0 +1,46 @@
+/* General styling for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #3f2202;
+  }
+  
+  /* Heading styling */
+  h1 {
+    text-align: center;
+    color: rgb(240, 213, 156);
+  }
+  
+  /* Container for images */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* makes it responsive */
+    margin-top: 20px;
+  }
+  
+  /* Styling for each image container */
+  figure {
+    background: rgb(240, 213, 156);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 400px;
+  }
+  
+  /* Styling for images */
+  img {
+    max-width: 100%;
+    height: auto;
+    filter: brightness(95%) contrast(110%) saturate(120%);
+  }
+  
+  
+/* Styling for the image captions */
+  figcaption {
+    font-size: 0.85em;
+    color: #555;
+    margin-top: 8px;
+  }

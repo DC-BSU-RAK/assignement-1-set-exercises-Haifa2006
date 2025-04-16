@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- This is what shows up as the tab name at the top of your browser -->
+  <title>Psychedelic Fish</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+      <!-- Main container for layout -->
+  <div class="container">
+
+        <!-- Left panel: for TTS input and button -->
+    <div class="left-panel">
+      <div class="label">Alan Partridge Soundboard</div>
+      <textarea id="tts-text" placeholder="Type Here"></textarea>
+      <button id="say-it">Say it</button>
+    </div>
+
+    <!-- Right panel: sample bank with navigation buttons -->
+      <div class="right-panel">
+      <div class="sample-bank-title">Sample Bank 2</div>
+      <div id="sample-grid" class="sample-grid"></div>
+      <div class="nav-buttons">
+        <button id="prev-page" class="nav-arrow">⬅</button>
+        <button id="next-page" class="nav-arrow">➡</button>
+      </div>
+    </div>
+  </div>
+<!-- Link to JavaScript functionality -->
+  <script src="index.js"></script>
+</body>
+</html>

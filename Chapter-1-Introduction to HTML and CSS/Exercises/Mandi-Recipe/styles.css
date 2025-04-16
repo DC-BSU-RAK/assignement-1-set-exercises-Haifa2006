@@ -1,0 +1,57 @@
+/* Styles for everything on the page */
+body {
+    background-color: #291b01;/* Dark brown background for the page */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/* Smooth and readable font */
+    color: #be9502;/* Golden text color for good contrast */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* This section styles the main part of the page */
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  /* Style for the main recipe title */
+  h1 {
+    text-align: center;
+    color: #8b4513;
+  }
+  
+  /* Style for the recipe image */
+  .recipe-image {
+    width: 60%;           /* This controls the size — reduce to make smaller */
+    height: auto;         /* Keeps the proportions correct */
+    object-fit: contain;  /* Shows the full image */
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;    /* Center the image */
+  }
+  
+  /* Style for the recipe description paragraph */ 
+  .description {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  /* Style for section headings like Ingredients and Method */
+  h2 {
+    color: #8b4513;
+    margin-top: 30px;
+  }
+  
+  /* Style for unordered and ordered lists */
+  ul, ol {
+    margin-left: 20px;
+  }
+  
+  /* Style for each list item */
+  ul li, ol li {
+    margin-bottom: 8px;
+  }
+  

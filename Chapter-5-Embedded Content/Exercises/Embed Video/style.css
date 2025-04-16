@@ -1,0 +1,32 @@
+/* Base styling for the entire page */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #696660;
+    font-family: sans-serif;
+  }
+  
+  /* Style for video container */
+  .video-container {
+    text-align: center;
+  }
+  
+  /* Style the video element */
+  .video-container video {
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  /* Optional text below video */
+  .video-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  

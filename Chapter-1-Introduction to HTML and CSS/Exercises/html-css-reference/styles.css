@@ -1,0 +1,31 @@
+/* Styles for everything on the page */
+body {
+    background-color: #e8f6f3; /* Mint */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #2f3e46;
+}
+ 
+/* Main heading style */
+h1 {
+    color: #116466; /* Teal-Green */
+    border-bottom: 2px solid #3f8880;
+}
+ 
+/* Subheading style */
+h2 {
+    color: #116466; /* Teal-Green */
+}
+ 
+/* CSS for the container displaying code samples */
+pre {
+    background-color: #d1e7e0;
+    padding: 10px;
+    border-radius: 6px;
+}
+  
+/* Styling for inline code */
+code {
+    font-family: monospace;
+    color: #1b4b4a;
+}

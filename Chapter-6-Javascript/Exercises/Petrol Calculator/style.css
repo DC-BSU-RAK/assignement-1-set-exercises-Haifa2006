@@ -1,0 +1,50 @@
+/* Base styling for the entire page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6E7F80;
+}
+
+/* Styling for the main container of the calculator */
+.container {
+    width: 600px;
+    height: 400px;
+    background-color: #F9F9F9;
+    color: #004D61;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+    /* Styling for the header inside the container */
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: centre;
+        background-color: #6E7F80;
+        padding: 5px;
+        border-radius: 5px;
+
+    }
+}
+/* Layout for input fields and labels */
+.wrapper {
+    display: flex;
+    div{
+        margin:20px;
+
+    }
+}
+/* Styling for the button section */
+#btn{
+    margin-top: 30px;
+    button{
+        background-color: #6E7F80;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+/* Change color when hovering over the button */
+button:hover{
+    background-color: #00B8A9;
+}
+}

@@ -1,0 +1,101 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0fdfa; /* Light mint background */
+  color: #1f2937; /* Charcoal text */
+}
+
+/* Header Styling */
+header {
+  background-color: #0f766e; /* Teal green */
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+}
+
+/* Navigation Menu */
+nav {
+  background-color: #134e4a;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #d1fae5; /* Light mint text */
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+nav ul li a:hover {
+  background-color: #115e59;
+  border-radius: 5px;
+}
+
+/* Main Layout */
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Column Styles */
+.column {
+  background-color: #ffffff;
+  padding: 20px;
+  flex: 1;
+  min-width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.column h2 {
+  margin-bottom: 15px;
+}
+.column ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+.column img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Button Styling */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #10b981; /* Emerald green */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #059669;
+}
+
+/* Footer */
+footer {
+  background-color: #0f766e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+  

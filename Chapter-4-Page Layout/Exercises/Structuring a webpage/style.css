@@ -1,0 +1,105 @@
+/* Base styling for the entire page */
+/* Fonts and Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    color: #000000;
+  }
+  
+  h1, h2 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Header section styling */
+  header {
+    background-color: #17072b;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation menu layout and styling */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Layout for main content area */
+  main {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  
+  /* Welcome section */
+  .welcome {
+    width: 65%;
+  }
+  
+  .welcome h2 {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .welcome img {
+    width: 60%;
+    height: auto;
+    margin-top: 15px;
+  }
+  
+  /* Lineup sidebar */
+  .lineup {
+    width: 30%;
+    background-color: #172d67;
+    color: #ffffff;
+    padding: 15px;
+  }
+  
+  .lineup h2 {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .lineup ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .lineup li {
+    margin-bottom: 10px;
+  }
+  
+  /* Image layout inside lineup */
+  .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .images img {
+    width: 48%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #8c15e9;
+    color: #ffffff;
+    text-align: center;
+    padding: 2px;
+    font-size: 0.9em;
+  }
+  

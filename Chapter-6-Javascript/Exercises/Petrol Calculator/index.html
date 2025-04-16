@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is what shows up as the tab name at the top of your browser -->
+    <title>Haifa's Petrol Calculator</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to external JavaScript file that contains the calculate() function -->
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!-- Main container for the calculator -->
+    <div class="container">
+        <h1>Petrol Calculator</h1>
+         <!-- Wrapper for the input fields -->
+        <div class="w1">
+               <!-- Input for petrol price per litre -->
+            <div>
+                <p>Petrol price per litre </p>
+                <input id="Petrol_Price" placeholder="1.72" type="number">
+            </div>
+              <!-- Input for number of litres -->
+            <div>
+                <p>Litre</p>
+                <input id="liters" placeholder="1" type="number">
+            </div>
+        </div>
+        <!--Button to calculate the amount-->
+        <div id="btn">
+        <button onclick="calculate()">Total Amount</button>
+        <h2>Total Amount:</h2>
+        <h2 id="totalAmount"></h2>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+/* Base styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #51042e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the game content */
+.game-container {
+    background-color: #D4A6A1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Game title styling */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Styling for score and lives text */
+.score p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Styling for the RGB value display */
+.rgb-display p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Container for the color options */
+.color-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Styling for each color option */
+.color-option {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+/* Hover effect for color options */
+.color-option:hover {
+    transform: scale(1.1);
+}
+
+/* Styling for the button */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hide the button when it has the "hidden" class */
+button.hidden {
+    display: none;
+}
+
+/* Remove focus outline when the button is focused */
+button:focus {
+    outline: none;
+}
